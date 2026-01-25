@@ -3,6 +3,8 @@ package dev.coma.spring.intro.service;
 import dev.coma.spring.intro.domain.Member;
 import dev.coma.spring.intro.repository.MemberRepository;
 import dev.coma.spring.intro.repository.MemoryMemberRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,6 +1,7 @@
 package dev.coma.spring.intro.repository;
 
 import dev.coma.spring.intro.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
